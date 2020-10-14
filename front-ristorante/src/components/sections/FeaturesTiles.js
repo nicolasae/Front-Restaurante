@@ -63,10 +63,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/gallery-img-01.jpg')}
                       alt="Features tile icon 01"
-                      width={64}
-                      height={64} />
+                      width={1300}
+                      height={1300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -85,10 +85,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/gallery-img-02.jpg')}
                       alt="Features tile icon 02"
-                      width={64}
-                      height={64} />
+                      width={1300}
+                      height={1300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -107,10 +107,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      src={require('./../../assets/images/gallery-img-03.jpg')}
                       alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
+                      width={1300}
+                      height={1300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -129,10 +129,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      src={require('./../../assets/images/gallery-img-04.jpg')}
                       alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
+                      width={1300}
+                      height={1300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -151,10 +151,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
+                      src={require('./../../assets/images/gallery-img-05.jpg')}
                       alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
+                      width={1300}
+                      height={1300} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -173,10 +173,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={require('./../../assets/images/gallery-img-06.jpg')}
                       alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
+                      width={1000}
+                      height={1000} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
