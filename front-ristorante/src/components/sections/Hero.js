@@ -81,7 +81,7 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video='./../../assets/images/RestauranteVideo.mp4'
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
