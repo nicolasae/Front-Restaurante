@@ -2,11 +2,29 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
 
+
+
+var myIndex = 0;
+
+/*
+<img class ="mySlides"  src="" style="width:100%">;
+automaticSlides();
+*/
+
+function automaticSlides(){
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  
+
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(automaticSlides, 3000); // Cambia la imagen cada 3 segundos
+}
 
 const propTypes = {
   ...SectionProps.types
@@ -53,6 +71,9 @@ const Hero = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
+  
+
+
 
   return (
     <section
@@ -70,9 +91,9 @@ const Hero = ({
                 Optimización Restaurante para Laboratorio de Software.
                 </p> 
              </div>
-          </div>
-         
-         
+          </div> 
+           
+          
         </div>
       </div>
     </section>
