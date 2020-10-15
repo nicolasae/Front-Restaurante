@@ -8,7 +8,11 @@ import { SectionProps } from '../../utils/SectionProps';
 var myIndex = 0;
 
 /*
-<img class ="mySlides"  src="" style="width:100%">;
+<img class ="mySlides"  src="./src/assets/images/slides-img-01.jpg" style="width:100%">;
+<img class ="mySlides"  src="./src/assets/images/slides-img-02.jpg" style="width:100%">;
+<img class ="mySlides"  src="./src/assets/images/slides-img-03.jpg" style="width:100%">;
+<img class ="mySlides"  src="./src/assets/images/slides-img-04.jpg" style="width:100%">;
+<img class ="mySlides"  src="./src/assets/images/slides-img-05.jpg" style="width:100%">;
 automaticSlides();
 */
 
