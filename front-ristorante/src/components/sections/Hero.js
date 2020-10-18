@@ -2,21 +2,8 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
-
-
-
-/*
-<img class ="mySlides"  src="./src/assets/images/slides-img-01.jpg" style="width:100%">;
-<img class ="mySlides"  src="./src/assets/images/slides-img-02.jpg" style="width:100%">;
-<img class ="mySlides"  src="./src/assets/images/slides-img-03.jpg" style="width:100%">;
-<img class ="mySlides"  src="./src/assets/images/slides-img-04.jpg" style="width:100%">;
-<img class ="mySlides"  src="./src/assets/images/slides-img-05.jpg" style="width:100%">;
-automaticSlides();
-*/
 
 const propTypes = {
   ...SectionProps.types
