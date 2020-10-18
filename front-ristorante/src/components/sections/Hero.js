@@ -2,10 +2,12 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
+import Image from '../elements/Image';
+import Modal from '../elements/Modal';
 
 
-
-var myIndex = 0;
 
 /*
 <img class ="mySlides"  src="./src/assets/images/slides-img-01.jpg" style="width:100%">;
@@ -15,20 +17,6 @@ var myIndex = 0;
 <img class ="mySlides"  src="./src/assets/images/slides-img-05.jpg" style="width:100%">;
 automaticSlides();
 */
-
-function automaticSlides(){
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  
-
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(automaticSlides, 3000); // Cambia la imagen cada 3 segundos
-}
 
 const propTypes = {
   ...SectionProps.types
@@ -77,8 +65,6 @@ const Hero = ({
   );
   
 
-
-
   return (
     <section
       {...props}
@@ -96,7 +82,27 @@ const Hero = ({
                 </p> 
              </div>
           </div> 
-           
+          <div className="Video" data-reveal-value="20px" data-reveal-delay="800">
+          <a
+              data-video={require('./../../assets/images/video03.mp4')} 
+              href="#0"
+              aria-controls="video-modal"
+              onClick={openModal}
+            >
+              <Image
+                className="has-shadow"
+                src={require('./../../assets/images/previa-video.jpg')}
+                alt="Hero"
+                width={896}
+                height={504} />
+            </a>
+          </div>
+          <Modal
+            id="video-modal"
+            show={videoModalActive}
+            handleClose={closeModal}
+            video= {require('./../../assets/images/video03.mp4')} 
+            videoTag="iframe" /> 
           
         </div>
       </div>
