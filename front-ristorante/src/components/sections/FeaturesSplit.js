@@ -4,6 +4,7 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
+
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -72,8 +73,12 @@ const FeaturesSplit = ({
                   Entradas:
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Albondigas</li>
+                    <li>Champiñones Gratinados</li>
+                    <li>Camarones al Ajillo</li>
+                  </ol>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -97,8 +102,12 @@ const FeaturesSplit = ({
                   Carnes 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Solomito Bourguignon</li>
+                    <li>Rollo de carne al horno</li>
+                    <li>Rey Faruk</li>
+                  </ol>                
+                </p>
               </div>
               <div className={
                 classNames(
@@ -113,7 +122,7 @@ const FeaturesSplit = ({
                   height={396} />
               </div>
             </div>
-
+            
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -122,8 +131,12 @@ const FeaturesSplit = ({
                   Pollo
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Pollo Teriyaki</li>
+                    <li>Pollo Parmesano</li>
+                    <li>Filete de Pollo a la Francesa</li>
+                  </ol>                 
+                </p>
               </div>
               <div className={
                 classNames(
@@ -146,8 +159,12 @@ const FeaturesSplit = ({
                   Pescados y Mariscos 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Cazuela de Mariscos</li>
+                    <li>Filete Gratinado</li>
+                    <li>Langostinos al gusto</li>
+                  </ol>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -171,8 +188,12 @@ const FeaturesSplit = ({
                   Sopas
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Crema de Tomate</li>
+                    <li>Sopa de Pollo</li>
+                    <li>Crema de Brócoli</li>
+                  </ol>  
+                </p>
               </div>
               <div className={
                 classNames(
@@ -195,8 +216,12 @@ const FeaturesSplit = ({
                   Ensaladas 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ol>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -220,8 +245,12 @@ const FeaturesSplit = ({
                   Bebidas Calientes
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Aguapanela con queso</li>
+                    <li>Té</li>
+                    <li>Café</li>
+                  </ol>                  
+                </p>
               </div>
               <div className={
                 classNames(
@@ -245,8 +274,12 @@ const FeaturesSplit = ({
                   Bebidas Frías
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  <ol>
+                    <li>Jugos Naturales</li>
+                    <li>Cerveza</li>
+                    <li>Sangría</li>
+                  </ol>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -270,8 +303,12 @@ const FeaturesSplit = ({
                   Postres
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                <ol>
+                    <li>Flan de Café</li>
+                    <li>Tiramisú</li>
+                    <li>Panacota</li>
+
+                  </ol>                  </p>
               </div>
               <div className={
                 classNames(
@@ -295,8 +332,12 @@ const FeaturesSplit = ({
                   Adicionales
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                <ol>
+                    <li>Cascos de Papa</li>
+                    <li>Aros de Cebolla</li>
+                    <li>Coctél de Camarones</li>
+
+                  </ol>                  </p>
               </div>
               <div className={
                 classNames(

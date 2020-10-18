@@ -1,3 +1,4 @@
+//Sección de reserva desde home
 import React from 'react';
 import classNames from 'classnames';
 import ButtonGroup from '../elements/ButtonGroup';
@@ -47,7 +48,7 @@ const Cta = ({
           </div>
           <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="black" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="black" wideMobile >
                     Reserve Aquí!
                     </Button>
                 </ButtonGroup>
