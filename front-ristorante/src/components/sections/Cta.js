@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import Input from '../elements/Input';
-
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
 
 const Cta = ({
   className,
@@ -45,7 +45,13 @@ const Cta = ({
              Si desea disfrutar de nuestro restaurante
               </h3>
           </div>
-
+          <div className="reveal-from-bottom" data-reveal-delay="600">
+                <ButtonGroup>
+                  <Button tag="a" color="black" wideMobile href="https://cruip.com/">
+                    Reserve Aquí!
+                    </Button>
+                </ButtonGroup>
+          </div>
         </div>
       </div>
     </section>

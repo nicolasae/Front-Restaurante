@@ -21,9 +21,6 @@ const FooterNav = ({
         <li>
           <Link to="#0">Contacto</Link>
         </li>
-        <li>
-          <Link to="#0">Información</Link>
-        </li>
       </ul>
     </nav>
   );
