@@ -3,7 +3,10 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+import image1 from './../../assets/images/slides-img-01.jpg'
+import image2 from './../../assets/images/slides-img-02.jpg'
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -80,20 +83,13 @@ const FeaturesSplit = ({
                   </ol>
                 </p>
               </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-              </div>
+              <div className="App">
+                <AliceCarousel autoPlay autoPlayInterval="1000">
+                  <img src={image1} className="sliderimg" alt="Features split 01" width={100} height={500}/>
+                  <img src={image2} className="sliderimg" alt="Features split 01" width={100} height={500}/>
+                </AliceCarousel>
+                </div>
             </div>
-
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -217,9 +213,9 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0">
                   <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Ensalada César</li>
+                    <li>Ensalada Rusa</li>
+                    <li>Ensalada Verde</li>
                   </ol>
                 </p>
               </div>
