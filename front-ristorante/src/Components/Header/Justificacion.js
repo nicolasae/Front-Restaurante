@@ -3,37 +3,45 @@ import React from 'react';
 
 export default function Justificacion(){
     return (
-        <section id="about" className="about">
-        <div className="container" data-aos="fade-up">
-  
-          <div className="row">
-            <div className="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-              <div className="about-img">
-                <img src="assets/img/about.jpg" alt=""/>
-              </div>
-            </div>
-            <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-              <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-              <p className="font-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-              <ul>
-                <li><i className="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i className="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i className="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum
-              </p>
+      <section id="porque-nosotros" class="porque-nosotros">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>¿Por qué nosotros?</h2>
+          <p>¿Por qué elegir nuestro Restaurante</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" >
+              <span>01</span>
+              <h4>Calidad</h4>
+              <p>Las mejores comidas</p>
             </div>
           </div>
-  
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" >
+              <span>02</span>
+              <h4>Precio</h4>
+              <p>Los mejores precios</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" >
+              <span>03</span>
+              <h4> Locación</h4>
+              <p>Un espacio rodeado de naturaleza con vistas espectaculares</p>
+            </div>
+          </div>
+
         </div>
-      </section>
-    );
+
+      </div>
+    </section>
+      );
     
 
 }

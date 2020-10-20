@@ -15,6 +15,10 @@ export default function HomePage(){
 
             <Hero/>
             
+            <Informacion/>
+
+
+            <Justificacion/>
                   
         </div>
     );
