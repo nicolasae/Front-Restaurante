@@ -23,9 +23,22 @@ import Pollos3 from './../.././assets/img/menu/Pollo_Teriyaki.png'
 import Pescados1 from './../.././assets/img/menu/Pescado_Cazuela.png'
 import Pescados2 from './../.././assets/img/menu/Pescado_FileteGratinado.png'
 import Pescados3 from './../.././assets/img/menu/Pescado_Langostinos.png'
-
-
-
+//Bebidas_Calientes
+import BebidasCalientes1 from './../.././assets/img/menu/Bebida_Caliente_Aguapanela.png'
+import BebidasCalientes2 from './../.././assets/img/menu/Bebida_Caliente_Cafe.png'
+import BebidasCalientes3 from './../.././assets/img/menu/Bebida_Caliente_Te.png'
+//Bebidas_Frias
+import BebidasFrias1 from './../.././assets/img/menu/Bebida_Fria_Cervezas.png'
+import BebidasFrias2 from './../.././assets/img/menu/Bebida_Fria_Jugos.png'
+import BebidasFrias3 from './../.././assets/img/menu/Bebida_Fria_Sangría.png'
+//Postres
+import Postres1 from './../.././assets/img/menu/Postre_Flan.png'
+import Postres2 from './../.././assets/img/menu/Postre_Panacota.png'
+import Postres3 from './../.././assets/img/menu/Postre_Tiramisu.png'
+//Adicionales
+import Adicionales1 from './../.././assets/img/menu/Adicional_ArosCebolla.png'
+import Adicionales2 from './../.././assets/img/menu/Adicional_CascoDePapa.png'
+import Adicionales3 from './../.././assets/img/menu/Adicional_CoctelCamarones.png'
 
 
 
@@ -42,7 +55,7 @@ export default function HomePage(){
         </div>
   
             <div className="row">
-                <div className="col-lg-12 d-flex justify-content-center">
+                <div className="col-lg-10 d-flex justify-content-center">
                 <ul id="menu-flters">
                     <li>Todo</li>
                     <li >Entradas</li>
@@ -59,7 +72,7 @@ export default function HomePage(){
             </div>
   
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Entradas1} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Albondigas</a><span>$10.000</span>
@@ -72,7 +85,7 @@ export default function HomePage(){
             </div>
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Entradas2} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Champiñones Gratinados</a><span>$14.000</span>
@@ -85,7 +98,7 @@ export default function HomePage(){
             </div>
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Entradas3} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Camarones al Ajillo</a><span>$22.000</span>
@@ -97,7 +110,7 @@ export default function HomePage(){
             </div>       
         
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Sopas1} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Crema de Tomate</a><span>$20.000</span>
@@ -110,7 +123,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Sopas2} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Sopa de Pollo</a><span>$10.000</span>
@@ -123,7 +136,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Sopas3} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Crema de Brócoli</a><span>$10.000</span>
@@ -136,7 +149,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Ensaladas1} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Ensalada César</a><span>$20.000</span>
@@ -148,7 +161,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Ensaladas2} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Ensalada Rusa</a><span>$18.000</span>
@@ -160,7 +173,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Ensaladas3} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Ensalada Verde</a><span>$20.000</span>
@@ -172,7 +185,7 @@ export default function HomePage(){
             </div> 
             
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Carnes1} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Solomito Bourguignon</a><span>$32.000</span>
@@ -184,7 +197,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Carnes2} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Rollo de carne al horno</a><span>$23.000</span>
@@ -196,7 +209,7 @@ export default function HomePage(){
             </div> 
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Carnes3} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Rey Faruk</a><span>$38.000</span>
@@ -208,7 +221,7 @@ export default function HomePage(){
             </div> 
             
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Pollos1} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Pollo Teriyaki</a><span>$28.000</span>
@@ -220,7 +233,7 @@ export default function HomePage(){
             </div>
 
             <div className="row menu-container" >
-                <div className="col-lg-6 menu-item filter-starters">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Pollos2} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>Pollo Parmesano</a><span>$28.000</span>
@@ -231,8 +244,8 @@ export default function HomePage(){
                 </div>
             </div> 
 
-            <div className="row menu-container" data-aos-delay="200">
-                <div className="col-lg-6 menu-item filter-starters">
+            <div className="row" data-aos-delay="200">
+                <div className="col-lg-5 menu-item filter-starters">
                     <img src={Pollos3} className="menu-img" alt=""/>
                     <div className="menu-content">
                     <a>FIlete de Pollo a la Francesa</a><span>$28.000</span>
