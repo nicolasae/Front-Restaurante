@@ -12,6 +12,7 @@ import Galeria from './Header/Galeria';
 import Footer from './Header/Footer';
 import Testimonio from './Header/Testimonios';
 import Chefs from './Header/Chefs';
+import Eventos from './Header/Eventos';
 
 
 
@@ -36,6 +37,8 @@ export default function HomePage(){
 
             <Menu/>
 
+            <Eventos/>
+
             <Reservacion/>
 
             <Testimonio/>
@@ -45,6 +48,7 @@ export default function HomePage(){
             <Chefs/>
 
             <Footer/>
+           
 
         </div>
     );
