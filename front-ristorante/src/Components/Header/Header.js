@@ -7,14 +7,9 @@ export default function Header(){
         <h1 className="logo mr-auto">Ristorante NCJ</h1>   
         <nav className="nav-menu d-none d-lg-block">
             <ul>
-            <li className="active/">Reserva</li>
-            <li>Información</li>
+            <li>Reserva</li>
             <li>Menu</li>
-            <li>Eventos</li>
-            <li>Galeria</li>
-            <li>Chefs</li>
-            <li>Contacto</li>
-            <li className="book-a-table text-center">Inicio de Sesión</li>
+            <li>Inicio de Sesión</li>
             </ul>
         </nav>
 

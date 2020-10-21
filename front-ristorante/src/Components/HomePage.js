@@ -11,6 +11,7 @@ import Testimonios from './Header/Testimonios';
 import Galeria from './Header/Galeria';
 import Footer from './Header/Footer';
 import Testimonio from './Header/Testimonios';
+import Chefs from './Header/Chefs';
 
 
 
@@ -40,6 +41,11 @@ export default function HomePage(){
             <Testimonio/>
 
             <Galeria/>
+
+            <Chefs/>
+
+            <Footer/>
+
         </div>
     );
 

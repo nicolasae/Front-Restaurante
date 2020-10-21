@@ -1,5 +1,5 @@
 import React from 'react';
-//import video from '../src/assets/video.mp4';
+import Video from './../.././assets/video.mp4';
 
 export default function Hero(){
     return (
@@ -17,7 +17,7 @@ export default function Hero(){
           </div>
 
           <div className="col-lg-4 d-flex align-items-center justify-content-center"data-aos-delay="200">
-            <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
+            <a href={Video} class="venobox play-btn" data-vbtype="video" data-autoplay="true"></a>
           </div>
   
         </div>

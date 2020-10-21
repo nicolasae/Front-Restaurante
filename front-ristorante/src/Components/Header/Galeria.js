@@ -14,8 +14,8 @@ export default function Galeria(){
 
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Restaurant</p>
+          <h2>Galería</h2>
+          <p>Algunas fotos de nuestro restaurante</p>
         </div>
       </div>
 
