@@ -31,7 +31,6 @@ export default function HomePage(){
             
             <Informacion/>
 
-
             <Justificacion/>
 
             <Menu/>
@@ -39,7 +38,8 @@ export default function HomePage(){
             <Reservacion/>
 
             <Testimonio/>
-                  
+
+            <Galeria/>
         </div>
     );
 
